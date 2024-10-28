@@ -1,24 +1,26 @@
-# Virtual environments
-venv/
-env/
-
-# Python cache
+# Byte-compiled / optimized / DLL files
 __pycache__/
-*.pyc
+*.py[cod]
+*$py.class
 
-# Data and model files
-data/
-*.csv
-*.xlsx
-*.h5
-*.pkl
+# Virtual Environment folders
+env/
+venv/
 
 # Jupyter Notebook checkpoints
 .ipynb_checkpoints/
 
-# Logs
-*.log
+# Data files (optional)
+*.csv
+*.json
 
-# OS generated files
+# System files
 .DS_Store
 Thumbs.db
+
+# Logs and temporary files
+*.log
+*.tmp
+
+# Sensitive files (if applicable)
+*.env
